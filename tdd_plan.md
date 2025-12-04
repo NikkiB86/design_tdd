@@ -25,7 +25,14 @@ side effects: no side effects
 
 - Make a task list
 
+
+-- TESTS 
+
 - includes_todo
+def test_includes_to_do:    
+    task_list buy milk #todo 
+
+
 - does_not_include_todo
 
 
