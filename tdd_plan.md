@@ -29,11 +29,22 @@ side effects: no side effects
 -- TESTS 
 
 - includes_todo
-def test_includes_to_do:    
-    task_list buy milk #todo 
+def test_include_todo():
+
+
+
+assert includes_todo("#TODO") == True
 
 
 - does_not_include_todo
+
+def test_does_not_include_todo():
+
+
+
+assert includes_todo("#TODO") == False
+
+
 
 
 
